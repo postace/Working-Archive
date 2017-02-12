@@ -1,0 +1,80 @@
+﻿Installing software on Ubuntu:
+
+Install .tar files:
+	tar xvfz file.tar.gz
+	./configure
+	make
+	sudo make install
+
+Make shift+numpad like MS Windows
+	/etc/default/keyboard
+	Change this XKBOPTIONS to XKBOPTIONS="numpad:microsoft"
+
+ipconfig in Linux
+	"ifconfig"
+
+Opening as admin in Linux
+	sudo gedit /path_to_file/
+
+Create file in root directory
+	sudo touch /file_path/
+Create directory in root
+	sudo mkdir /foler_path_name/
+
+Installing ibus unikey
+	sudo apt-get install ibus-unikey
+	ibus restart
+	Goto text entry then adding viet
+
+Installing Fatabulous theme for Linux
+
+Installing font Sans Francisco
+	(support link: https://www.youtube.com/watch?v=xIpfnAl3Mkk)
+	
+Installing Golden dict
+
+Installing java8 on c9.io : http://tecadmin.net/install-oracle-java-8-jdk-8-ubuntu-via-ppa/#
+
+Optimize Ubuntu: http://www.nguyenvanquan7826.com/2013/11/01/ubuntu-toi-uu-hoa-ubuntu/
+    Using sudo bum to disable these services:
+       
+Reading epub in ubuntu: https://itsfoss.com/open-epub-books-ubuntu-linux/
+
+Install Evolus Pencil 3.0 for mockup
+
+Install Xampp
+    Create shortcut:
+    https://www.panduboys.com/tips-tricks/xampp-control-panel-create-shortcut-in-ubuntu/
+    
+Shorten the terminal with:
+		Open .bashrc
+			PS1='\[\033[01;32m\]${C9_USER}\[\033[00m\]:\[\033[01;31m\]$\[\033[00m\] '
+		Guide -> https://www.digitalocean.com/community/tutorials/how-to-customize-your-bash-prompt-on-a-linux-vps
+
+		backup:
+			PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+			
+Installing MySQL-server
+    https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-14-04
+        
+    service mysql start
+    service mysql stop
+    
+    Config socket mysql with Rails:
+        mysqladmin variables | grep socket
+        
+Installing Documentation for Programming: sudo apt-get install zeal
+
+Installing qpdfview for linux: 
+    sudo add-apt-repository ppa:b-eltzner/qpdfview
+    sudo apt-get update
+    sudo apt-get install qpdfview
+    
+[[ None of link : https://www.pdf-archive.com , https://youtu.be/4hGXF_iE3kU]]
+			
+Fixing Teamviewer:
+    sudo teamviewer daemon stop
+    sudo teamviewer daemon start  		
+
+
+

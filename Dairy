@@ -1,0 +1,516 @@
+########
+6/1/2017:
+
+Khởi đầu với một ngày mới khá là buồn ngủ. Mặc dù thức dậy từ 4:30 sáng nhưng mình vẫn ko gượng để dậy code or đọc sách được.
+
+8h20 thì mình bắt đầu ra khỏi nhà đi tới cty làm.
+Được a Thắng giao task viết TDD cho việc cache firebase mà mình
+làm cả buổi sáng. Tìm mọi cách để làm sao disconnect Firebase mà
+không được (ps: Bọn Google làm như sh*t ấy, đã cho connect lại
+ko hỗ trợ luôn disconnect làm mềnh phát bực)
+
+Ok, bỏ qua phần đó, và mình cuối cùng đã hỗ trợ được fromDate toDate trong query URL. Lúc ban đầu thì mình ko biết làm cái đó
+như thế nào nhưng dần dà thì mình cũng đã hiểu :))
+
+3:30pm Bắt đầu vào techtalk tại vndirect. Tuần này là lượt a
+Châu giám đốc trình bày, một phần cũng là do ko có ai nhận,
+phần còn lại anh cũng muốn chia sẻ chút ít kinh nghiệmc của mình
+cho mọi người. Chủ đề của tuần khá hay, nói về việc ghi file log sao cho hiệu quả.
+Với 5 cấp bậc của log: info, debug, warn, error, fatal.
+Tùy vào từng case trên production mà mình nên ghi log khi exception
+throw.
+
+Cái này trước mình dùng log qua loa, chủ yếu dùng printStackTrace để
+in cái đống lỗi là chính, hôm nay mới được mở rộng tầm mắt :D.
+
+Sau khi rời cty, mình đi bộ để đếm thời gian đi hết 1 vòng CV Thống 
+Nhất. Mất tầm 40', mình thấy khá là nhanh :)
+
+Về tới nhà thì mình thấy bật điện sáng & ko thấy thằng cùng phòng đâu, mình nhìn quanh thì thấy vẫn còn cái cặp của hắn =>
+Lợn này vẫn còn trên Hà Nội =)).
+
+Buổi tối lại ko tập trung mà đọc cái gì đó được, toàn surf linh tinh để rồi nhận ra thời gian qua mình đã tạo ra cái thói quen nó xấu tới mức độ nào.
+Ko tập trung vào công việc, viết code mà cứ tập trung + lo lắng mấy
+cái đâu đâu không đáng có.
+
+#########
+07/01/2017:
+
+Hôm nay khởi đầu ngày mới hơi muộn, cuối tuần mà -> xõa đê :)). Gần 7h mới dậy, sau khi trải qua các thủ tục thường ngày,
+mình bắt đầu soạn lịch cho hôm nay. Công việc cũng nhẹ nhàng, hầu hết là đọc và nghiên cứu: how cookie works, watch spring
+videos tips (cái này mình cảm thấy si đa vãi, 2 ông nói chả ra đâu vào đâu mà vác cái title 40 tips and tricks, như câu
+view ấy :(. )
+
+Đọc về cookies mình mới hiểu rõ nó là cái gì và nó hoạt động như thế nào.
+Cũng như để trả lời câu hỏi phỏng vấn của anh ở cty Framgia ngày xưa : "Nếu webserver gửi cookie đến người dùng, 
+người khác ăn cắp cookie thì làm ntn", lúc đấy kiến thức còn non yếu nên chưa trả lời chính xác được.
+Giờ thì tự tin hơn hẳn rồi, keke.
+
+Sau đó thì mình tiếp tục tìm hiểu thêm về lưu mật khẩu người dùng hiệu quả trong database.
+Hàm băm MD5 đã hack được nên giải pháp ở đây là dùng SHA-1 or SHA-256 để lưu hashed password cùng với một chuỗi
+Salt. Cách sinh ra chuỗi salt này thì thiên về  toán học nhiều hơn, nhưng nó đảm bảo bảo mật, ko thể dùng dictionary 
+attck được nên khá là yên tâm.
+
+Trưa đi mua ít thịt + bắp cải, thiệt hại 13k :)) ăn uống đạm bạc vc.
+
+Chiều thì max rảnh nên đọc cuốn Java Building Block, với mục tiêu mỗi ngày đọc và code hết 1 chương.
+Dù là kiến thức ko mới nhưng mình thấy đây là cuốn sách khá hay để dạy cho bọn mới học CS (Khoa học máy tính)
+hoặc newbie học code.
+
+5:30pm: chạy bộ quanh CV Thống Nhất như mọi khi. Tuy nhiên, hôm nay mình phát hiện một số cổng trong CV không thu vé.
+Cái này chắc mai phải vào thử xem sao.
+
+Tối tắm giặt rồi vào đọc nốt chương 1 cuốn Java Building Block.
+Mở cổng cho tên Hoàn rồi lên đọc nốt bài đăng trên Medium hồi sáng mới note lại.
+
+Bài đăng khá hay, nói về việc học cách học để đạt được cái giấc mơ của mình.
+Rất thực tế và có tính hữu dụng cao, mình nghĩ nên chia sẻ cái này về FB để anh em biết thêm.
+
+Tuy nhiên kế hoạch cho buổi tối không được tốt lắm nên hầu hết giá trị của buổi tối là định hình & lập kế hoạch.
+Sau đó thì mình tranh luận vs tên cùng phòng về chủ đề trong cuốn "Đệ tử quy" của Khổng Tử.
+Tiếp xúc với nhiều ý kiến trái chiều khiến mình thấy rất thú vị :D
+
+#########
+08/01/2017:
+
+Hoàn còn nợ 20k tiền thịt!
+
+Ngày chủ nhật mình định đi cái lễ hội tết năm mới ở ĐHBK thì lại bị trì hoãn. Cái này đa phần mình nghĩ là do mình,
+phần nào cũng là vì ở cùng phòng với một tên trì hoãn max level :((
+Nhưng thôi ko sao, có dự tính trước cả rồi, hãy cứ đợi đấy thằng cùng phòng khó chịu ạ :)).
+
+Buổi sáng mình đọc linh tinh một số bài viết trên trang Medium, các bài viết trên này khá phong phú cũng như tip & trick 
+khá hay. Thường xuyên cày thằng này với Quora mình nghĩ chẳng mấy mà lên trình ý nhỉ.
+Sau đó thì đọc sách về thánh Elon Musk, công nhận sách khá nhiều từ ngữ academic, rất khó đọc. Mình ko dịch mà đọc chay
+kết hợp vs phương pháp đoán nghĩa để đoán định tác giả đang định nói đến điều gì.
+Sơ lược phần này, tác giả nói tới Musk với tầm nhìn và công việc thường ngày tại các công ty hiện tại ông đang làm CEO.
+
+Buổi chiều thì tìm hiểu thêm về Web server nginx. Thằng này cung cấp khá nhiều tiện ích và được dùng khá nhiều tại những 
+trang có traffic cao trên thế giới. Vì đây là việc mà a Hưng trên cty giao đọc thêm nên ko làm ko được. Với lại kiến thức 
+từ nginx mình thấy cũng khá hay, có thể giúp ích mình cho công việc sau này.
+
+5h:30 vẫn tiếp tục chạy bộ như mọi khi thôi, trong khi thằng cùng phòng vẫn miên man vào cày game. 
+Chạy tới cuối đường, chỗ ngã rẽ vào cổng chính CV Thống Nhất, mình thấy một tòa khách sạn với cái tên Nikko.
+Cái này làm mình liên tưởng tới tòa khách sạn được kể tên trong lễ đón mừng năm mới mà hôm 1/1 mình mới xem trên
+TV nhà mình ở quê.
+
+Buổi tối thì đọc thêm 1 chút về nginx trong quyển sách Free Nginx Cookbook. Sau đó thì code một ít với quyển Java Building Block.
+
+10h30: Rảnh, ngồi đọc gần 2 chương cuốn Năng đoạn kim cương. Biết thêm về tính chất trung tính của sự vật hiện tượng. Rằng tiềm năng 
+của mỗi sự vật không nằm trong nó mà nằm trong cách chúng ta nhìn nhận về nó như thế nào. Nó có thể tốt hoặc cũng có thể xấu.
+Cái tư tưởng này của Phật giáo làm mình thấy rất phù hợp, dễ hiểu. Khi nói đến phần này, tên Hoàn cũng có tranh luận về quan điểm của 
+vật lý hiện đại về tính chất của sự vật. Rằng sự vật phụ thuộc vào cái cách mà chúng ta nhìn nó.
+
+#########
+09/01/2017:
+
+Tối hôm trước uống cà phê nên đêm ko ngủ được thành ra sáng dậy hơi khó chịu xíu.
+Nhưng rồi buổi sáng cũng qua, mặc dù cãi nhau với tên Hoàn hơi nhiều :))
+
+8h20 lên đường tới cty. Hôm nay mình đi vội nên cũng không có ngó xung quanh nhiều.
+Đến cty thì được anh Hưng giao việc viết lại tính năng authentication và đặt nó lên tầng của nginx. 
+Lúc này anh Thắng (hướng dẫn mình đợt thực tập) có hỏi mình đã làm xong phần gold rate API chưa, 
+mình bảo làm xong phần rate, clean được code 1 lần rồi.
+Thế mới thấy có cái sai của mình trong này. Sai vì mình ko hỏi ý kiến anh Thắng trước mà đã nhận việc từ anh Hưng :((
+Hi vọng mọi chuyện vẫn diễn ra tốt đẹp.
+
+Công việc chiếm time nhất của mình hôm nay là cài máy ảo Virtual Box, cài CentOS và đặt thằng Nginx lên đó.
+Mỗi tội lần cài đầu tiên nó làm sao ấy, lỗi permission làm mình phải cài lại phát nữa. 
+Dù đã có kinh nghiệm trong việc cài rồi nhưng do hôm nay tâm trạng vội nên xử lý không được bình tĩnh lắm.
+Nhưng cũng hay, hôm nay học được thêm một số trick từ việc tìm kiếm và học cái thằng nginx.
+
+Tầm hơn 10h chút thì có chị HR bên Framgia gọi điện mời mình đi pv. Ôi trời, bây giờ mình ko còn ý định đi 
+làm ở Framgia nữa, nhưng lúc trước ko trả lời inbox Facebook ngay của bà chị Linh nên bây giờ lằng nhằng 
+tới mức này đây. Kệ, dù sao cũng test pv thêm phát nữa mà, lo gì ko có tiền mua rượu :))
+
+5h30 như mọi ngày, vẫn đi 1 vòng CV Thống Nhất rồi về nhà nấu cơm, đọc tý nginx code linh tinh rồi đi ngủ.
+Hôm nay mình cảm thấy ko tệ chút nào :D
+
+############
+14/1/2017:
+
+Đặt báo thức từ 4h30 nhưng lười tới tận 5h40 mới dậy được. 
+Chắc do lập trình chưa đi sâu vào thành niềm đam mê trong con người mình được.
+Có lẽ mình cần phải luyện tập lập trình nhiều & nhiều hơn nữa.
+
+Công việc cả buổi sáng là ngồi remote máy ở cty để fĩx cái Thymeleaf 
+trên Framework Spring. Mệt vl, quyển sách thì nó viết ở cái năm nảo
+nào, bây giờ khác biệt nhiều nên lạ lẫm vô bờ.
+
+Nói qua cv tý, thì mình đang test thử chức năng trên java sao cho
+gọi request và trả về được cái token.
+Đã thực hiện xong, mai cố gắng viết cái token parser và token consumer để thực hiện test performance giữa validate token ở Nginx so với Java.
+
+Anw, hôm nay học thêm được một chút cơ bản trong Java Swing.
+Lúc trước nhìn vào đau đầu khó hiểu, còn giờ nhìn vào thì sao nó
+dễ dàng quá vậy nhỉ. Chắc lúc trước còn mải chơi game vs lại anime 
+linh tinh, không có nhiều time vào coding được.
+
+Chiều vẫn chạy bộ như bình thường, có điều khác là hôm nay mình đã đột nhập vào công viên Thống Nhất được. Đi lòng vòng trong công viên thì cũng đã đến chỗ tập luyện Pháp luân công. Đây là nơi mình 
+muốn đến nhất khi di chuyển tới chỗ ở mới.
+Đã có dự định tập Pháp luân từ lâu nhưng chắc bây giờ mới thực hiện được.
+
+############
+15/1/2017:
+
+Hôm nay sao cũng dậy muộn như hôm trước nhỉ, điều này thật kỳ lạ.
+Lẽ nào sức hút của coding đối với mình chưa được lớn mạnh.
+Thôi ko sao, cái này có thể cải thiện được.
+Phần lớn sách Năng đoạn Kim Cương đã đọc xong từ hôm qua nhưng sáng
+nay mình đã ngồi đọc nốt phần các câu chuyện thành công, từ những người trên thế giới đã áp dụng trí tuệ Phật giáo cổ trong cuộc sống 
+hàng ngày của họ.
+Mình muốn viết một bài cảm nhận ngắn về Năng đoạn Kim Cương để có thể giúp được ai đó có được cái mà họ cần.
+Trí tuệ cổ xưa này rất có giá trị mà mình nghĩ mình nên chia sẻ ra.
+Có lẽ mình nên tìm hiểu về Phật giáo, đây có thể là một điều rất thú
+vị. Mình sẽ có thể biết được thêm nhiều điều cũng như mở mang thêm
+đầu óc.
+
+Sau khi đọc xong sách thì mình ngồi code nốt phần limit request với Nginx. Theory thì hiểu và cũng viết được vài dòng config thế
+nhưng tạo ddos giả trong java sao mà khó vậy trời. Mình nghĩ
+mình nên hỏi anh trong công ty để tìm sự giúp đỡ nếu ngày mai
+mình chưa tìm được giải pháp hợp lý.
+
+Hình như buổi chiều quên mịa rồi. Mình không ghi log trong đầu
+phần đó nên quên nhanh là phải thôi. Có lẽ nên áp dụng viết journal
+như một bài viết trên Medium mà mình đọc được. Tác giả bài viết
+đã đề cập tới việc anh ấy ghi log tất cả mọi việc trong ngày, từ plan, stragtegy tới những suy nghĩ chung trong một cuốn sổ. Anh
+ấy nói rằng việc viết chúng chung như vậy không những dễ quản lý mà
+còn giúp anh ấy tổ chức có hệ thống cũng như làm anh ấy mạch lạc hơn.
+
+Tầm chiều thì đi bộ như bình thường. Có điều cái cổng phụ đó họ thu vé, cảm giác nhọ vc =)). Nhưng ko sao, mình đã đột nhập được
+vào cửa chính rồi đi xuyên qua chỗ tập luyện Pháp Luân Công.
+Hôm nay mình đi hơi muộn nên ko vào tập chung cùng mọi ngừời dược.
+Có lẽ nên giành chiến lược học mỗi ngày một bài pháp sau đó học các động tác lại cho nhớ -> cuối cùng mới đi tập tại CV.
+
+Tối ngồi học ít Java Swing rồi lập kế hoạch cho một tuần làm việc mới.
+Mặc dù kế hoạch rất đơn giản nhưng mình thấy nếu mỗi ngày mình
+theo dõi sát sao tiến độ của mình thì chẳng mấy chốc mình sẽ
+đạt được ước mơ.
+Nói về ước mơ thì bây giờ mỗi lĩnh vực mình đều có một ước mơ riêng,
+về cuộc sống gia đình, bạn bè, sự nghiệp, đời sống tâm linh.
+Nhưng trên hết, những thứ trên đều được suy tính dưới góc nhìn của 
+trí tuệ cổ Phật giáo -> kinh Năng đoạn kim cương, chứ ko phải đơn thuần là những suy nghĩ ích kỷ, hẹp hòi của bản thân nữa rồi.
+Âu cũng là điều mình cần gặp, y như trong sách đã nói, hãy chú ý tới
+những hạt giống mà bạn đã gieo, rồi một ngày nó lớn mạnh thì ta
+không thể tưởng tượng được.
+
+#############
+16/1/2017:
+
+Bắt đầu ngày mới với việc lập kế hoạch và coding, nhưng xem chừng ngày hôm nay mình làm việc ko được hiệu qủa mấy.
+Chủ yếu là do ko đặt mục tiêu ngay sau khi anh Hưng giao việc dẫn tới hoạt động trong ngày bị gián đoạn và mình ko 
+thể hoàn thành đúng hạn các mục tiêu trong ngày.
+Thật đáng buồn làm sao.
+Không sao tôi ơi, dù sao thì hôm nay cũng biết thêm vài điều mới về limit request, logging trên Spring với Handler
+Interceptor.
+Đặc biệt là con c9.io chết tiệt làm mình mất hơn 2 tiếng hì hục cài Nginx để rồi phát hiện nó chỉ cho lắng nghe cổng
+22 cho ssh mà thôi :(((((
+
+
+##############
+17/1/2016:
+
+Sáng dậy mình ngồi thiền một chút, tuy không nhiều nhưng cảm thấy dễ chịu hẳn ra.
+Tiếp theo đó mình đọc một chút technical về Saving Object trong quyển Head First Java.
+==== TECHNICAL 
+Nói một chút về Technical thì khi một class implement cái interface Srializable thì điều đó có nghĩa gì.
+Interface này ko có một phương thức nội tại nào trong nó cả. Vì vậy khi mình implement nó, mình đã báo hiệu
+cho máy ảo Java rằng mọi object được tạo ra từ Class này đều có thể serialize được.
+Đơn giản vậy nhưng khi sử dụng để ghi file và đọc file cần phải chú ý. Vì có thể lúc đọc ra thì class đã thay đổi
+một số thuộc tính, có thể có instance vác transient vào nên ko thể đọc được.
+Do đó mới sinh ra cái gọi là serialVersionUID -> Thằng này sinh ra với mục đích lưu trữ phiên bản hiện tại của object.
+Khi mà xảy ra conflict thì Java sẽ warnning để mình còn biết.
+Còn nhiều vấn đề với interface này nữa nên khi quên mình sẽ đọc lại sách cho nhớ.
+
+
+======= TECHNICAL
+Hôm nay mình tới công ty vs tâm trạng hào hứng vãi ra do tối qua làm ngon phần việc mà a Hưng bảo.
+Kết quả thì sao, sau khi báo cáo a Hưng thì a bảo rằng mình ko làm đúng ý cái Filter mà a yêu cầu.
+Filter trong Spring ở đây là một thứ gì đó đứng chặn request, bóc token và lưu thông tin user vào trong
+Thread Local. Sau đó cái request tới controller thì nó sẽ lấy được các thông tin của ngừơi dùng trong Thread local
+đấy mà ko nặng nhọc gì phải parse lại.
+Thread Local chỉ sống trong vòng đời request, lúc đầu mình lại nhầm tưởng nó với một cái khá quen thuộc là session.
+Tiếp theo thì ngồi đọc code dự án VNDS-API.
+Có một vấn đề từ cái Filter đấy mà tới chiều hỏi a Thịnh cũng ko debug giúp mình được. Cái này chắc chỉ người nào viết mới
+biết được. Mình ko chỉ parse request để lấy user info mà còn đọc cả request URI, request method => thành ra cái chain
+filter nó ko truyền request tới controller được. Số nhọ nên tầm 4h chiều mình mới xong cái yêu cầu mà từ sáng anh Hưng bảo.
+Phần so sánh performance ko biết mình viết đúng không mà Nginx validate token khá lâu so với Java, mặc dù công việc đơn
+giản vl, chỉ việc validate, rồi trả về json ngay lập tức mà ko phải đi qua bước xử lý nghiệp vụ nào.
+Mai chắc phải xem lại code phần này.
+
+
+Sau đó thì chiều định về 5h30 và thể dục, đợi a Hưng họp xong lâu quá nên tới 17:45 mình mới lóc cóc từ công ty ra.
+Tối đọc linh tinh, code tý Head First và đọc về phần Java Socket.
+
+##################
+18/1/2016:
+
+=====TECHNICAL=====
+Using Thread an Runnable separate
+Thread scheduler can be different based on specific JVMs, OSs.
+Downside of using single thread is lead to data corruption
+
+Sáng nay dậy thế đ* nào mà vẫn buồn ngủ rồi lại 5h40 mới dậy, xảy ra việc này chắc chắn là do động lực chưa cao.
+
+
+===== TECHNICAL =======
+synchronized method có thể làm chậm chương trình, thậm chí dẫn tới deadlock.
+Hãy cẩn thận với thread priorities, "no guarantee for that"
+Thread deadlock xảy ra khi có hai thread mà trong đó mỗi thread đợi
+chờ key object mà thread kia giữ.
+
+~ Collections in Java:
+TreeSet
+HashSet
+HashMap
+LinkedHashMap
+
+Carefully of generic method
+
+Bao trùm cảm giác ngày hôm nay là hụt hẫng khi không nhận được quà tết từ VNDirect. 
+Đây thật sự là một cảm giác tồi tệ khi nó phát sinh từ cảm giác ganh tị so với a Đức - người mới vào chưa đầy 2 tuần mà đã nhận được quà. Trong khi mình làm ở đây 3 tháng rồi mà éo thấy tăm hơi.
+Nhưng khi nghĩ kỹ lại thì mình cũng đã làm được gì cho cái công ty
+này đâu, nên thôi phải cố gắng hết mình hơn nữa.
+Tự hỏi mình, quà là mục đích chính hay ước mơ của mình là mục đích chính nào, cái nào quan trọng hơn cái nào.
+Sao có thể vì một thứ nhỏ nhoi như vậy mà làm tâm trạng mình xấu đi.
+
+Anyway thì hôm nay cũng học được một bài học từ cái cấu hình Nginx,
+đó là mình quên ko bỏ limit request khi validate tại Nginx, thật là
+một kinh nghiệm đáng nhớ.
+
+Tối đọc về phần Collection từ sách Head First Java, rất chi là hay luôn nhé.
+
+###############
+19/1/2017:
+
+====== TECHNICAL =========
+Một số cấu trúc dữ liệu sẵn của Java hay Collections API cần được quan tâm như Set, Map, List.
+Đặc biệt với những thằng như HashSet, TreeSet,..
+
+Package lại các file jar và deployment.
+
+Tới công ty hôm nay mình phản ứng & tạo những âm thanh ko được tốt cho lắm
+Ví dụ, khi đang ngồi tìm hiểu mà thi thoảng nói linh tinh làm ảnh hưởng tới người xung quanh.
+Vì sao nhỉ, có lẽ là do ko tập trung, suy nghĩ đây là vấn đề khó làm mình cứ dồn dập trong tâm mà ko thể hoàn thành nhanh được.
+
+Đầu tiên là làm nốt các test performance với nginx-jwt, sau đó là tìm hiểu về cái gọi là kong - một open source được dùng để distributed, authen, logging and more.
+
+Có điều, thằng Kong này hiện tại chỉ truy cập được với hai db là
+postgres và cassandra, cho nên để cài postgres, mình đã tốn kha khá
+thời gian cho nó.
+
+Buổi chiều thì ngồi tìm hiểu về các REST API, plugin cùng một số feature khác mà nó hỗ trợ.
+SO với thằng này thì cái thằng trước mình thấy nó hay hơn nhiều.
+Dễ dàng tạo custom plugin mới, tạo và chỉnh sửa. Mỗi tội phần sinh key json jwt là hơi lâu một xíu thôi.
+
+Mấy hôm nay đi bộ kiểu cho có hay sao ấy, có lẽ nguyên nhân chính là do ngồi trong công ty nhiều quá không còn sức mà cảm thấy mới mẻ hoặc hứng thú nữa.
+
+Sau đó thì, về nhà nấu cơm và... phát hiện ra hết gạo. Đúng lúc ấy
+thì tiền trong túi cũng chẳng còn là bao, giờ lúc này đây mới nhớ về mẹ. Cái kiểu chưua hiểu chuyện đời nó khổ thế đấy.
+
+##################
+20/1/2017:
+
+Hôm nay thức dậy ngồi thiền một lúc rồi đọc nốt sách Head First.
+Sau đó mới nhận ra là đã tới lúc đi làm rồi =))
+
+Khi tới cty, anh Hưng có ngồi lại và nói chuyện với mình về việc mình làm. Anh có khen mình làm mình cảm thấy khá 'sướng' trong lòng. Anh có đề cập mình cần phải học nhiều, thậm chí nhiều hơn nữa
+trong tình trạng của mình. Vì đây là lúc mà mình còn trẻ, đừng có quan trọng vấn đề tiền bạc.
+Ở vndirect, hãy chú trọng 2 thứ:
+
++ Học tập
++ Mindset: Hãy suy nghĩ về sản phẩm bạn đang làm và master nó.
+Hãy chịu trách nhiệm về phần việc mình làm.
+
+Buổi tối ngồi code project quản lý sinh viên và đọc được vỏn vẹn 10
+trang sách Deep Work. Ôi vãi thật tầm này buồn ngủ vãi đạn :'(
+
+#################
+22/1/2017:
+Hai ngày cuối tuần cũng không có gì nhiều đáng để viết.
+Phần vì sắp Tết và phần vì mình cảm thấy hơi cô đơn khi ở một mình.
+Mình có lẽ nên đi ra ngoài rủ bạn đi chơi nhưng không biết nên rủ ai 
+đi bây giờ vì có lẽ mọi người cũng đang bận rộn hết rồi.
+
+Hai ngày cuối tuần này mình tập trung đọc Deep Work để lấy ý tưởng làm việc tập trung, tạo tiền đề và cơ sở để lập kế hoạch làm việc,
+góp phần tạo ra những output có giá trị.
+Ý tưởng của Deep Work mình đã hiểu hết và đây thực sự là phần khó
+nhất khi mang những ý tưởng trên giấy này vào thực tiễn.
+Sẽ mất thời gian cũng như chút effort để mang chúng vào cuộc sống.
+Thời gian tới mình nghĩ nên ra ngoài nhiều hơn, kết bạn với ai đó
+hoặc tham gia vào một nhóm nào đó.
+
+##################
+23/1/2017:
+
+Buổi sáng mình thức dậy nhưng không hề có động lực chút nào hết.
+Có lẽ vì công việc trên cty đang trở nên nhàn rỗi chăng. Có thể là
+do như vậy nhưng phần chính là do mình cảm thấy chưa muốn làm.
+Sợ bước chân vào cái project gold rate thì sẽ oải.
+
+Do vậy mà cả ngày hôm nay chắc kiến thức nhiều nhất thu được cũng chỉ là ở một chút Test Driven Development mà thôi.
+Dù sao đi nữa, hôm nay được nghe anh Thắng nói về luân hồi cũng khá hay.
+Anh nói về cái vô ngã trong đạo Phật, về việc 2 con người nhìn một
+sự vật hiện tượng nhưng theo 2 hướng khác nhau. Đó là do con người
+dựa vào cái ý niệm sinh khởi, khi khởi ra ý niệm này sẽ dẫn đến
+ý niệm khác, có thể tồi tệ hơn và từ đó khiến con người ta dẫn đến
+sai lầm. Cái này hay nhé, mình đã từng nghe trong quyển Năng đoạn 
+Kim Cương về tính không trong mọi sự vật hiện tượng rồi và ý tưởng
+thì cũng gần gần như vậy.
+Điều thứ hai mà anh Thắng nhắc đến mà mình thấy hay có lẽ là sự luân hồi, con người khi chết đi sau 49 ngày sẽ đầu thai kiếp mới.
+Thời khắc lúc một ai đó chuẩn bị chết đi là thời khắc quan trọng nhất, khiến người đó có thể lên thiên đàng hay xuống địa ngục. 
+Trong vòng 8h sau khi người đó qua đời, không được làm các hành động kiểu như: Cãi cọ, tranh chia tài sản hay sát sinh. 
+Điều này được thể hiện rõ ở trên làn da của người chết đó.
+Còn một điều nữa là trong 49 ngày, thì cứ 7 ngày người nhà lại cúng
+giỗ một lần. Khoảng thời gian này, ký ức của người chết sẽ lặp đi 
+lặp lại và nếu ai chết đi do tự sát thì sẽ rất đau khổ.
+
+Mình trước giờ không biết đến cái gọi là 49 ngày này, giờ mới
+lờ mờ hiểu được chút nào.
+
+Review lại trong này thì hôm nay học 0 từ mới tiếng Anh và 0
+giờ deep work. Ôi, đúng là do chưa có kế hoạch nào cho từng giây phú
+của ngày mà.
+
+##############
+2/2/2017:
+
+Ngày đầu tiên đi làm sau kỳ nghỉ Tết 2017 :))
+Hôm nay làm việc ko được hiệu quả lắm do dư vị từ tết và lại hơn 1 tuần không hề động tay vào coding cái gì cả.
+
+Không những thế, hôm nay còn hưởng trọn 4 cái lì xì từ các sếp và
+anh chị trong công ty -> Tổng là 300k vãi đạn :D
+
+Mình vẫn giữ thói quen tập thể dục như hàng ngày, có điều là hôm nay
+cảm thấy mỏi mệt rã rời. Chắc chắn do lâu không đi bộ đây mà, hơn
+tuần rồi nghỉ Tết có làm cái vẹo gì đâu hoho.
+
+Buổi tối làm linh tinh, nhưng cuối cùng vẫn là fix cái lỗi
+loa chết tiệt. Cứ cắm đi cắm lại vào cái cổng HDMI của TV vào làm lỗi à.
+
+###############
+3/2/2017:
+
+Ngày thứ hai đi làm sau nghỉ tết nguyên đán, do chưa được lập kế 
+hoạch năm nên mình chưa xác định được sẽ làm gì trong năm nay.
+Do đó mà sáng dậy khá uể oải kể cả khi đã ngồi thiền để xác định
+mình cần quản lý thời gian tốt hơn.
+
+Việc trên công ty hôm nay chủ yếu vẫn là đọc và luyện tập TDD cho
+vững để thử project mà anh Thắng giao. 
+Sau khi đọc xong quyển TDD with Java thì mình có ghi lại các
+best practices của nó.
+
+Cuối giờ, mình bảo đã đọc xong quyển này và recommend anh Đức ngồi
+cạnh nên đọc thử thì lão ấy lại bảo mình truyền đạt lại.
+Ok thôi, nhưng mình sẽ cần thời gian để tổ chức lại các kiến thức về TDD trong đầu lại trước khi trình bày với người khác.
+Đó cũng là một cách hay khi học, nó sẽ giúp mình nhớ lâu hơn, trước
+hết là về mặt lý thuyết.  Phần cuối cuốn sách tác giả cũng có đề cập
+muốn trở thành master của chủ đề này thì mình cần practice, practice
+và practice. Chỉ thông qua practice thì người ta mới giỏi được.
+Giống như kata trong môn võ karate của người Nhật :D
+
+Bài học lớn nhất của ngày hôm nay đó là muốn trở thành master TDD
+thì phải luyện tập thật nhiều và cải tiến nhiều hơn mỗi lần.
+
+################
+4/2/2017:
+
+Technical:
+    4 kiểu tham chiếu trong Java, khá cool: https://dzone.com/articles/java-different-types-of-references
+    
+#################
+5/2/2017:
+
+Chủ nhật là ngày nghỉ mà mình cảm thấy hơi chán chán một chút.
+Sáng ngồi đọc nốt ebook hai vạn dặm dưới đáy biển của nhà văn gì 
+gì người Nga. Tác phẩm khoa học viễn tưởng này cũng khá được.
+Đi qua những cảm xúc từ ngạc nhiên tới thú vị, đôi lúc xen lẫn
+sự tò mò khó hiểu về cái ông thuyền trưởng Nemo này. 
+Hơn hết, qua cuốn sách, ta thấy được chiêm nghiệm nhiều hơn về
+biển cả. Các thông số, những khoảng cách đo bằng hải lý cũng như
+hằng hà sa các cái tên người, tên biển, tên đảo.
+
+Buổi chiều thì ngồi lập lại kế hoạch cho cả một năm. Mục tiêu năm
+nay đã được xác định về các mặt, có lẽ mình nên lập mục tiêu dài
+hạn hơn là chỉ lập mục tiêu cho một năm ngắn ngủi như thế này.
+
+Mình biết rằng đời người rất ngắn ngủi, nếu không tận dụng lúc còn
+trẻ để dám sống với chính mình cũng như thể hiện hết tất cả các khả 
+năng của bản thân thì không còn cơ hội nào khác, và sẽ đến lúc phải hối tiếc.
+CHính vì vậy, từ giờ phút này, hãy luôn nhắc nhở bản thân phải sống
+theo ước mơ, hoài bão của mình. Đừng phí thời gian vào những chuyện vô bổ hay đại loại thế.
+
+######################
+6/2/2017:
+
+Sáng thức dậy súc miệng bằng một chút thiền định. Căn bản sáng nay
+nhà chủ không bật TV sớm chứ nếu không thì mình cũng không biết phải làm thế nào.
+Sau đó ngồi đọc tý Soft Skills rồi lượn lờ ít TDD.
+
+Khi đến công ty, mình dành toàn bộ buổi sáng cho việc đọc & soát
+lại TDD, để đến chiều có thể áp dụng nó vào dự án thật goldnrate ở
+VNdirect.
+
+Nói thật, TDD đối với beginner như mình quả thật là khá khó.
+Trong sách TDD with Java chỉ đề cập tới test các unit thông thường,
+đây chơi luôn với restTemplate nên bắt buộc phải là integration test => Nên mỗi lần chạy all test đều tốn một khoảng thời gian khá lâu.
+
+Cả buổi chiều mới cover được một cái basic của dự án này.
+Code kiểu truyền thống dễ hơn kiểu TDD nhiều :'(
+
+###################
+7/2/2017:
+
+Chia sẻ từ anh Thuận Nguyễn: 
+    "Có 2 điều tôi khuyên các bạn trẻ theo đuổi công nghệ: nghiêm túc học tiếng Anh và chia sẻ những gì bạn đã học".
+    
+Hôm nay mình cày mặt TDD với dự án goldnrate mà anh Thắng giao.
+Phải nói là code kiểu này khá gượng gạo nếu không muốn nói là cảm
+thấy hơi tẻ nhạt. 
+Đọc theo tutorial trong sách thì max dễ nhưng đến lúc thực hiện thì
+chao ôi sao mà khó thế không biết :))
+
+Anyway, hôm nay mình mắc phải lỗi khi chơi với thằng restTemplate của Spring. Nó không chịu cho mình query với các ký tự đặc biệt 
+khi encode UTF-8, mất hơn tiếng đồng hồ mới tìm ra cách fix.
+
+Mệt nhoài như vậy nhưng hôm nay vẫn chủ yếu là nghe tiếng Anh,
+chưa học từ mới gì trong mấy ngày hôm nay cả.
+
+####################
+8/2/2017:
+
+Dậy từ 4h nhưng tới 5h mới thực sự tỉnh giấc. Đọc 30' quyển Soft Skill sau đó hùng hục vào coding.
+
+Tới công ty mình gặp anh Thắng mới đi thiền bên Thái về.
+Mình không có cảm giác là anh ấy đã gầy đi nhưng nghe mấy chị 
+xung quanh nói vậy nên mình đoán vậy.
+
+Tạm thời hôm nay mình chưa nói chuyện công việc vs anh vì thấy công việc của anh khá bận.
+
+Coding tới chiều thì dự án đã ổn phần nào, tuy nhiên phần config
+cho firebase vẫn còn max hard-code, mai cần dùng cái api.properties như trong video của teamtreehouse.
+
+Buổi chiều hầu hết dành thời gian để đọc các article, trong đó
+có article khá hay của guth... gì gì đó. Đại khái là nói về "quán tính" của con người, ta là chiếc thuyền có sự điều khiển hay ta
+là sẽ là chiếc bè lạc trôi vô định.
+
+Buổi tối sau khi xem qua video (không code theo video cảm thấy khó chịu vãi đạn).
+Sau đó thì đọc về climbing ladder và professional trong Soft skill, 2 chủ đề max hay luôn. Nhưng trong đó cũng có phần mình không đồng
+tình với tác giả lắm. Có lẽ là do chưa có nhiều kinh nghiệm trong cái lãnh vực này :))    
+    
+#################
+10/2/2017:
+
+OK ngày thứ 6 max rảnh, đến công ty ngồi làm nốt cái dự án chán
+ngán goldnrate mà anh Thắng giao.
+Tại sao lại chán thì có lẽ là do service mà thằng tỷ giá nó mang
+tới người dùng một sự không chuyên nghiệp, chả biết thằng này
+lấy info từ đâu nhưng json data của nó nhìn củ chuối vl.
+
+Sau đó 10h thì mình gặp chị bên phòng nhân sự, có nói chuyện qua
+chút về công việc -> cuối tuần lại phải viết CV để nộp cho chị 
+ấy rồi @@!.
+
+Chiều ngồi nghịch LinkedHashMap, nghe techtalk tuần này
+của anh Tùng bàn về in-memory grid ( giống redis)    

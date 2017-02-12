@@ -1,0 +1,241 @@
+Git Install
+
+Git Configuration:
+    git config --global user.name "Your name"
+    git config --global user.email "Your email"
+    git config --global color.ui true
+    
+    Git Auto-completion
+    
+    curl -OL https://github.com/git/git/raw/master/contrib/completion/git-completion.bash
+    mv ~/git-completion.bash ~/.git-completion.bash
+    nano .bash_profile
+
+    (Add this file to .bash_profile then save it)
+        if [ -f ~/.git-completion.bash ]; then
+          source ~/.git-completion.bash
+        fi
+        
+    Showing current branch in terminal
+        Add this to $PS1
+        $(__git_ps1 "(%s)")
+Using Git
+    ## Init a repo:
+        git init    
+        git add .
+        
+        git commit -m "Your messages"
+        Add and commit
+        git commit -am "Your commit messages"
+        
+    See log:
+        git log
+        
+        Limit number of commit:
+        git log -n {number_of_commit}
+        
+        See log since, until
+        git log --since=2017-10-01
+        git log --until=2017-10-01
+        
+        See author commit
+        git log --author="Name of the author"
+        
+        See commit with given regular expression
+        git log --grep="Your text here"
+        
+        See commit one line
+        git log --oneline
+        
+        See commit in other branch
+        git log --graph --oneline --decorate --all
+   
+    See status:
+        git status
+    See changes:
+        git diff
+        
+        See change in the staging index
+        git diff --staged
+        
+        See change inline
+        git diff --color-words
+        
+        Viewing commit:
+            git show _commit_id
+            
+            git show _commit_id --format=online HEAD
+        
+        Comparing commit:
+            git diff --stat --summary -w [commit_id]..HEAD        
+            
+        Comparing branch
+            git diff master..slave
+        
+        
+    Changing commit:
+        git commit --amend -m "Your new messages here!"        
+        
+    Undoing changes:
+        Staying in current branch, checkout for file in the repo
+        git checkout -- file
+        
+        See old version of file from given commit_id
+        git checkout commit_id_here -- file_to_change
+        
+        Revert any change in current commit:
+        git revert commit_id_to_revert
+        
+        Undoing many commit:
+        git reset
+        
+        Unstaging file:
+        git reset HEAD file_name
+        
+    Removing files:
+        git rm file_to_delete
+        
+    Removing untracked files:
+        git clean -f
+        
+        Remove file from staging index (already specify in .gitignore)
+        git rm --cahced file_name
+           
+    Renaming files:
+        git mv file_old file_new
+        
+    Referencing commit:
+        git ls-tree _options_here (HEAD, master, tree_id)
+        
+    Work with branching:
+        List all
+            git branch
+        Create one
+            git branch branch_name
+        Switch branch
+            git checkout branch_name
+        Create + switch
+            git checkout -b branch_name 
+            
+        Show all branch that already merged to current branch
+            git branch --merged
+            
+        Renaming branch
+            git branch -m old_branch_name new_branch_name
+            
+        Deleting branch
+            git branch -d branch_name
+            
+        Merging:
+            git merge branch_you_want_to_merge
+            
+            Fast-forward merge with commit
+            git merge --no-ff branch branch_to_merge
+            
+            Using tool to resolve merge conflict
+            git mergetool
+
+    Stashing:
+        git stash save "Your_message_here"
+        
+        List all
+        git stash list
+        
+        Showing changes:
+        git stash show -p _stash_id_here    
+        
+        Pull thing from stash
+        git stash pop (pull and remove from stack)
+        git stash apply (pull and keep it from stack)
+        
+        Delete from stash
+        git stash drop _stash_id
+        
+        Clear everything from stash
+        git stash clear
+        
+    Working with remotes:
+        Add a remote
+        git remote add origin _url_remote_here
+        
+        Showing info
+        git remote -v
+        
+        Delete a remote
+        git remote rm _remote_name_here
+        
+        Fetch from remote
+        git fetch _remote_name_ (default we can omit remote_name)
+        
+        Fetch + Merge
+        git pull
+        
+        Set up branch and match it up with remote
+        git branch _branch_name origin/_branch_name
+        
+        git checkout -b branch_name origin/branch_ name
+        
+        Delete branch in remote repo
+        git push origin --delete branch_name
+                
+        
+    Advanced
+        Using alias
+        git config --global alias.{short_command} real_command
+        (viewing list config in ~/.gitconfig)
+Understand Git:
+    Three tree structure
+    How git generate hash value for each commit( Using SHA-1 algorithm, git use previous commit if present + author + commit message to generate this checksum)
+    HEAD poiner in git
+    We just can change in 1 recent commit.        
+    
+    git reset:
+        --soft:
+            does not change staging index or working directory
+        --mixed: (default)
+            changes staging index to match repository
+            does not change working directory
+        --hard:
+            changes staging index and working directory to match repository
+            
+    What file to ignore:
+        compiled code
+        packages and compressed files
+        logs and databases
+        operating system generated files
+        user uploaded assets (images, PDF, ...)
+
+    Git is designed to be a file-tracking system:
+        - tracks files
+        - track the directories it takes to get to files
+        - ignores directories with no files
+    
+    Referencing commit:
+        tree-ish
+            + parent commit:
+                -HEAD^, a7f2b^, master^
+                -HEAD~1, HEAD~
+            + grandparent commit:
+                -HEAD^^, a7f2b^^, master^^
+                -HEAD~2
+            + great-grandparent commit:
+                -HEAD^^^,
+                -HEAD~3
+                
+    Braching:
+        It is cheap 
+            try new ideas
+            isolate features or section of work
+        One working directory
+        Fast context switching
+    Strategy to reduce merge conflict
+        - keep lines short
+        - keep commits small and focused
+        - beware stray edits to whitespace
+        - merge often
+        - track changes to master
+        
+    Remote tips:
+        - always fetch before you work
+        - fetch before you push
+        - fetch often

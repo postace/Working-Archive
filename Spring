@@ -1,0 +1,26 @@
+Some notes with Spring project:
+
+Create new maven project with spring:
+    https://github.com/kolorobot/spring-mvc-quickstart-archetype
+    
+Some video youtube course:
+    https://youtu.be/-weKK-oNuhA?list=PL9ooVrP1hQOEfi91PCFQMawtBJrPpir7y
+    https://www.youtube.com/watch?v=Ke7Tr4RgRTs
+
+    
+Installing Apache Tomcat:
+    https://www.digitalocean.com/community/tutorials/how-to-install-apache-tomcat-8-on-ubuntu-16-04
+    
+    Start Tomcat: sudo systemctl start tomcat
+    
+    Start xampp: sudo /opt/lampp/manager-linux-x64.run
+    
+
+Webpage, tutorial: 
+    Spring docs: docs.spring.io/spring/docs/4.3.x/spring-framework-reference/html/
+    Tut: howtodoinjava.com
+    
+ 
+    
+    
+    
