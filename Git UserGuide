@@ -99,7 +99,7 @@ Using Git
         git clean -f
         
         Remove file from staging index (already specify in .gitignore)
-        git rm --cahced file_name
+        git rm --cached file_name
            
     Renaming files:
         git mv file_old file_new

@@ -1,0 +1,116 @@
+JavaScript for life
+
+alert, 
+var
+console.log();
+JavaScript Literals: Number (decimal or without decimal), String
+
+Userful documentation online
+    Mozilla Developer:
+    http://developer.mozilla.org/en-US/docs/Web/JavaScript
+    
+    W3C Schools
+    
+    Node.js homepage
+    
+    Express.js framework
+    
+    Mongoosejs
+    http://mongoosejs.com
+    
+Falsy value in js
+    false
+    null
+    undefined
+    ''
+    0
+    NaN
+    
+Learning to use debug in NodeJS
+    node debug _file_js
+    (press 'n' to next)
+    
+Arrow function
+    - Does not bind this keyword
+    - Does not bind array arguments
+    
+Variables:
+    Use `let` instead of var
+    
+    const
+    
+Functions:
+    Regular function
+    
+    Fat Arrow Functions
+    
+Beginner to API with NodeJS
+    Using babel 
+    package.json
+        "main": "dist"
+    npm install --save express mongoose body-parser 
+    
+    development environment:
+        npm install --save-dev nodemon eslint babel-cli babel-core babel-eslint babel-preset-es2015 babel-preset-stage-0
+        
+    create eslintConfig
+    
+    add new .babelrc
+    
+    add some configuration in scripts
+    
+    test: npm run build
+    
+Complete NodeJS course 2.0
+    Using Require in JS (reading docs at nodejs.org)
+    
+    lodash lib from npm, many utility
+    
+    nodemon to restart whenever changes happen
+    
+    get input from user
+        using process.argv
+        
+    Simplified user input with `yargs`
+        npm install yargs
+        
+    Working with JSON
+        obj -> string: JSON.stringify()
+        
+        string -> obj: JSON.parse()
+        
+    Try - catch with Javascript:
+    
+Ref: 
+https://medium.com/software-engineering/beautiful-node-apis-eaf0b636cbe#.7iroggbo2
+https://github.com/FredKSchott/the-node-way
+http://thenodeway.io/
+Google Search: beautiful node js application
+https://www.quora.com/As-an-A-student-at-Stanford-Caltech-or-any-Ivy-League-Can-you-describe-your-average-day-from-morning-to-night-Include-the-mundane-parts-And-can-you-include-an-average-day-in-high-school-as-well/answer/Kyle-Johnson-147?srid=9sxe
+https://medium.freecodecamp.com/a-dynamic-framework-for-finding-your-first-programming-job-b4eb0605b4f3#.vexl44ukk
+
+http://vancelucas.com/blog/ensure-required-env-variables-are-set-in-node-js/
+https://www.joezimjs.com/javascript/javascript-prototypal-inheritance-and-what-es6-classes-have-to-say-about-it/
+http://timjrobinson.com/how-to-structure-your-nodejs-models-2/
+http://stackoverflow.com/questions/19619936/how-to-separate-the-routes-and-models-from-app-js-using-nodejs-and-express
+
+### New Resource
+IBM:
+    https://www.ibm.com/developerworks/web/library/wa-notify-app/index.html
+
+Lynda:
+    https://www.lynda.com/Node-js-tutorials/Node-js-Essential-Training/417077-2.html
+    
+Udemy:  
+    https://www.udemy.com/learn-nodejs-by-building-10-projects/
+    
+Treehouse:
+    http://blog.teamtreehouse.com/7-awesome-things-can-build-node-js
+    
+Tutorial Point:
+    https://www.tutorialspoint.com/nodejs/
+    
+Youtube 
+    Google Cloud
+        https://www.youtube.com/watch?v=yiOtZDICUfI
+ 

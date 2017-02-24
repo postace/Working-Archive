@@ -513,4 +513,70 @@ chút về công việc -> cuối tuần lại phải viết CV để nộp cho 
 ấy rồi @@!.
 
 Chiều ngồi nghịch LinkedHashMap, nghe techtalk tuần này
-của anh Tùng bàn về in-memory grid ( giống redis)    
+của anh Tùng bàn về in-memory grid ( giống redis)
+
+####################
+13/2/2017:
+
+Sáng dậy khá muộn, có lẽ đang ngồi ôn lại tý knowledge về github.
+Và cũng không có tâm trạng ngồi đọc cuốn Soft Skills, mặc dù mình biết nó hay đấy.
+
+Nay lên công ty, ngồi chả biết phải làm việc gì thì đành mở cuốn
+ebook TDD Java.
+
+Đang chán thì tự nhiên sếp Châu gọi vào, giao cái task to vãi,
+mình sẽ code backend với anh Thắng (hờ hờ).
+Mình cảm nhận được sức nặng của cái dự án này nó đặt lên vai mình, nhưng dù sao - đây cũng là cơ hội cho mình học hỏi thêm.
+Quá tuyệt vời, thử thách đến mọi nơi và đây là điều mình cần
+phải làm khi còn trẻ.
+
+Cố gắng nodejs nào :v
+
+#####################
+20/2/2017
+
+Chính thức ký hợp đồng thử việc tại VNDirect, bước chân mới đã bắt đầu.
+Việc hôm nay có lẽ do mình ko đặt quá nhiều mục tiêu nên coi như hôm nay không học được nhiều mấy,
+ngoài việc viết đi viết lại cái api documentations.
+
+Mình cảm thấy rằng học nodejs đối với mình cũng không khó lắm, mà quan trọng cái khó nằm ở chính suy nghĩ của mình, cùng với sự lười biếng >.<
+Cần phải vượt qua cái cảm giác sung sướng sau khi đọc tutorial hoặc xem xong video hướng dẫn thì chả biết
+làm gì hết, ko có idea gì hay ho.    
+
+#####################
+21/2/2017
+
+Buổi sáng mình ngồi tập trung làm việc, sau đó thì tầm 10h30' có vào trong phòng sáng tạo nghe 1 chút về platform
+scale. Buổi thuyết trình của các anh chị cũng khá được, và một phần giúp gợi mở kiến thức hơn chính là
+những câu hỏi do anh Châu đặt ra. Đâu là core value, đâu là interation của uber, youtube, facebook.
+
+Anh có đề cập đến mô hình của gmail cũng là một platform; một ví dụ cho thằng này là do nó có thể detect được
+những kiểu email spam do một người report.
+Thứ hai, những mô hình hoạt động kiểu platform cũng đều là do có được core value, nền tảng nhỏ trước (hay 
+nói cách khác là đóng kín trước) sau đó mới phát triển và mở rộng ra bên ngoài.
+Điển hình là mô hình của thanh niên Facebook, từ đóng kín trong khu vực trường đại học -> sau đó tiến dần
+ra bên ngoài.
+
+Mô hình platform cũng chỉ làm công việc duy nhất là enable, cho phép producer và consumer giao tiếp, trao đổi
+vs nhau. Thằng nào cũng được lợi
+
+######################
+22/2/2017
+
+Một ngày dài, học được max nhiều thứ
+
+Đầu tiên phải kể đến đó là chuyện công việc.
+Mình sẽ sử dụng Nodejs và firebase cho công việc của mình, nhưng bài toán đặt ra ở đây là cần scaling cho một lượng
+lớn user, following và push notification. Làm sao để content được deliver một cách hiệu quả, mà ko tốn performance hệ thống.
+Một trong những gợi ý mà các anh ý đặt ra cho mình là học hỏi 
+cách mà những thằng như facebook hay twitter làm với hệ thống 
+của họ.
+
+Điều thứ 2 là về việc thiền và 1 số điều mà mình đã học được trong
+buổi thiền trà ngày hôm nay:
+    +) Thứ nhất là về việc duy trì tâm an lành (tĩnh tâm)
+    +) Thứ hai là về việc duy trì sức khỏe bản thân, yêu thương
+        bản thân trước khi yêu thương người khác
+    +) Thứ ba là việc biết lắng nghe người khác
+    +) Thứ tư là lắng nghe 
+    +) 4 cái thí
