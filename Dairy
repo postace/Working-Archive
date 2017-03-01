@@ -580,3 +580,28 @@ buổi thiền trà ngày hôm nay:
     +) Thứ ba là việc biết lắng nghe người khác
     +) Thứ tư là lắng nghe 
     +) 4 cái thí
+    
+##########################
+1/3/2017:
+
+Công nghệ luôn thay đổi và đúng thật là như vậy. Lần đầu tiên tiếp xúc 
+với dự án đã cho thấy những cái lỗi ngớ ngẩn của bản thân mình.
+Từ nodejs chuyển sang spring, mình đã vướng phải một số lỗi như sau:
+    + Không chú tâm vào mục tiêu hiện tại của dự án
+    + Thiếu nhiệt huyết
+    + Thiếu lòng tin
+    + Giao tiếp chưa tốt với các thành viên trong team 
+    
+Lần đầu tiên mình làm việc với quy trình Agile và sau 2 Sprint thì
+cái nào cũng fail. Mà nguyên nhân chính là do mình, cách làm việc
+của mình chưa thực sự hiệu quả. Lần đầu tiên bị PO mắng, cảm giác
+không sung sướng gì nhưng nó cũng mình nhận ra được cái mà mình
+thực sự cần phải tập trung.
+Dù sao đi nữa, như anh Dũng đã nói, mình cần phải dành thời gian
+nhiều hơn cho dự án, làm đến muộn cũng được, đó là điều mình cần.
+Thay vì mỗi buổi làm đều về từ lúc 5h30 chiều rồi lại bỏ phí cái
+thời gian buổi tối của bản thân mình.
+
+Điều này cũng đã được anh Châu đề cập đến. Việc mình code phải
+là step by step, phải xác nhận được ở mỗi bước mình code thì không
+có gì nó break cả. Như vậy thì mới đảm bảo ok được.
